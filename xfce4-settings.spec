@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.12.0
-Release  : 12
+Release  : 13
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.0.tar.bz2
 Summary  : No detailed summary available
@@ -56,9 +56,12 @@ locales components for the xfce4-settings package.
 
 %build
 %configure --disable-static
-make V=1 %{?_smp_mflags}
+make V=1  %{?_smp_mflags}
 
 %check
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
