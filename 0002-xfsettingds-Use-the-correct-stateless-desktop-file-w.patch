@@ -1,0 +1,27 @@
+From e6f235817b146886c518acf6702a94a56157a9cb Mon Sep 17 00:00:00 2001
+From: Ikey Doherty <michael.i.doherty@intel.com>
+Date: Mon, 7 Mar 2016 07:45:44 +0000
+Subject: [PATCH 2/2] xfsettingds: Use the correct (stateless) desktop file
+ with SmClient
+
+Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
+---
+ xfsettingsd/main.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/xfsettingsd/main.c b/xfsettingsd/main.c
+index 388a757..793ee97 100644
+--- a/xfsettingsd/main.c
++++ b/xfsettingsd/main.c
+@@ -65,7 +65,7 @@
+ #endif
+ 
+ #define XFSETTINGS_DBUS_NAME    "org.xfce.SettingsDaemon"
+-#define XFSETTINGS_DESKTOP_FILE (SYSCONFIGDIR "/xdg/autostart/xfsettingsd.desktop")
++#define XFSETTINGS_DESKTOP_FILE (DATADIR "/xdg/autostart/xfsettingsd.desktop")
+ 
+ 
+ static XfceSMClient *sm_client = NULL;
+-- 
+2.7.1
+

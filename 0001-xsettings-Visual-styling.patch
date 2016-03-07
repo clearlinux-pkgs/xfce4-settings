@@ -1,7 +1,7 @@
-From 02b48550c9a55f131ee36f1b94e76f1d9607d1cc Mon Sep 17 00:00:00 2001
+From 5c1618538eeba4dc3c424b48f86ffc5183589b4c Mon Sep 17 00:00:00 2001
 From: Ikey Doherty <michael.i.doherty@intel.com>
 Date: Wed, 15 Apr 2015 16:15:52 +0100
-Subject: [PATCH] xsettings: Visual styling
+Subject: [PATCH 1/2] xsettings: Visual styling
 
 Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
 ---
@@ -9,7 +9,7 @@ Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/xfsettingsd/xsettings.xml b/xfsettingsd/xsettings.xml
-index 8f6ef3b..e42a634 100644
+index 8f6ef3b..1030255 100644
 --- a/xfsettingsd/xsettings.xml
 +++ b/xfsettingsd/xsettings.xml
 @@ -6,8 +6,8 @@
@@ -42,5 +42,5 @@ index 8f6ef3b..e42a634 100644
      <property name="KeyThemeName" type="string" value=""/>
      <property name="ToolbarStyle" type="string" value="icons"/>
 -- 
-1.9.1
+2.7.1
 
