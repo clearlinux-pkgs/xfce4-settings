@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.12.0
-Release  : 13
+Release  : 14
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.0.tar.bz2
 Summary  : No detailed summary available
@@ -14,13 +14,24 @@ Requires: xfce4-settings-bin
 Requires: xfce4-settings-data
 Requires: xfce4-settings-locales
 BuildRequires : intltool
+BuildRequires : pkgconfig(dbus-glib-1)
 BuildRequires : pkgconfig(exo-1)
+BuildRequires : pkgconfig(fontconfig)
 BuildRequires : pkgconfig(garcon-1)
+BuildRequires : pkgconfig(gio-2.0)
+BuildRequires : pkgconfig(glib-2.0)
+BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(ice)
+BuildRequires : pkgconfig(inputproto)
+BuildRequires : pkgconfig(libxfce4kbd-private-2)
+BuildRequires : pkgconfig(libxfce4ui-1)
+BuildRequires : pkgconfig(libxfce4util-1.0)
+BuildRequires : pkgconfig(libxfconf-0)
 BuildRequires : pkgconfig(x11)
 BuildRequires : pkgconfig(xi)
 BuildRequires : pkgconfig(xrandr)
 Patch1: 0001-xsettings-Visual-styling.patch
+Patch2: 0002-xfsettingds-Use-the-correct-stateless-desktop-file-w.patch
 
 %description
 
@@ -53,6 +64,7 @@ locales components for the xfce4-settings package.
 %prep
 %setup -q -n xfce4-settings-4.12.0
 %patch1 -p1
+%patch2 -p1
 
 %build
 %configure --disable-static
