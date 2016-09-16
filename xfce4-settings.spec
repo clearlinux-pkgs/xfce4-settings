@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.12.1
-Release  : 17
+Release  : 18
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.1.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.1.tar.bz2
 Summary  : No detailed summary available
@@ -23,11 +23,14 @@ BuildRequires : pkgconfig(glib-2.0)
 BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(inputproto)
+BuildRequires : pkgconfig(libnotify)
 BuildRequires : pkgconfig(libxfce4kbd-private-2)
 BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
+BuildRequires : pkgconfig(libxklavier)
 BuildRequires : pkgconfig(x11)
+BuildRequires : pkgconfig(xcursor)
 BuildRequires : pkgconfig(xi)
 BuildRequires : pkgconfig(xrandr)
 Patch1: 0001-xsettings-Visual-styling.patch
