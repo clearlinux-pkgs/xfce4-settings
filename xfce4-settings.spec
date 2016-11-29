@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.12.1
-Release  : 18
+Release  : 19
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.1.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.1.tar.bz2
 Summary  : No detailed summary available
@@ -71,6 +71,10 @@ locales components for the xfce4-settings package.
 
 %build
 export LANG=C
+export CFLAGS="$CFLAGS -Os -ffunction-sections "
+export FCFLAGS="$CFLAGS -Os -ffunction-sections "
+export FFLAGS="$CFLAGS -Os -ffunction-sections "
+export CXXFLAGS="$CXXFLAGS -Os -ffunction-sections "
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
