@@ -1,16 +1,31 @@
+4.13.0
+======
+- Initial port to GTK+ 3
+- Known issues:
+  - The display dialog does not always build correctly. The offending
+    code exists in the port to GdkSeat. When alternating between the
+    old and new versions of this code, both versions do work, so there
+    seems to be some strangeness at build time.
+    - See dialogs/display-settings/scrollarea.c#n513
+- Translation updates: Basque, Bulgarian, Chinese (China),
+  Chinese (Taiwan), Croatian, English (Australia), French, German,
+  Hebrew, Japanese, Korean, Lithuanian, Malay, Occitan (post 1500),
+  Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian,
+  Slovak, Spanish, Swedish, Ukrainian
+
 4.12.1
 ======
 - Fix: Color scheme preview on low bit depth displays (Xfce #12223)
 - Fix: Memory leak in xfce4-appearance-settings (Xfce #11746)
 - Fix: /Xft/Hinting is never set (Xfce #12086)
-- Fix: Segfault in convert_xfce_output_info when plugging in 
+- Fix: Segfault in convert_xfce_output_info when plugging in
   an external model, fallback on 640x480 (Xfce #12580, RH #1317382)
 - Fix: xfsettingsd resets TV mode to NULL on power cycle (Xfce #11107)
 - Make sure icon == NULL if no icon is found
 - Make the 'Settings Editor Dialog' pluggable.
-- Translation updates: Arabic, Asturian, Bulgarian, Catalan, 
-  Croatian, English (Australia), Galician, German, Greek, 
-  Hebrew, Hungarian, Icelandic, Indonesian, Lithuanian, 
+- Translation updates: Arabic, Asturian, Bulgarian, Catalan,
+  Croatian, English (Australia), Galician, German, Greek,
+  Hebrew, Hungarian, Icelandic, Indonesian, Lithuanian,
   Occitan (post 1500), Polish, Russian, Slovak, Swedish
 
 4.12.0

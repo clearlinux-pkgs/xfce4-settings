@@ -1,3 +1,516 @@
+commit 22a9508be801a764cf43f3ef2bf898025c722080
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Thu Nov 3 23:31:32 2016 -0400
+
+    Updates for release
+
+commit 9b674b5ccfd77f490d92a928fa742385c194cd31
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Wed Oct 26 12:30:41 2016 +0200
+
+    I18n: Update translation zh_CN (99%).
+    
+    370 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 3f0b858199db61399a56675a32c46517d578c9db
+Author: Cédric Valmary <cvalmary@yahoo.fr>
+Date:   Thu Oct 20 00:30:44 2016 +0200
+
+    I18n: Update translation oc (97%).
+    
+    363 translated messages, 8 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f37f1189bdf074e31cc58e0d44d14b9a3d919398
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Tue Oct 18 18:30:41 2016 +0200
+
+    I18n: Update translation sr (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit bb9dbba231aaabf57037e750996ea05f996719e8
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Thu Oct 13 18:31:04 2016 +0200
+
+    I18n: Update translation pt (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 7fff8d3ca35153fa96e68bd421dd2cd72a658707
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Thu Oct 13 12:30:46 2016 +0200
+
+    I18n: Update translation ja (99%).
+    
+    370 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0678939ba8ff6920728bc32cd26411381dd83f4b
+Author: Piarres Beobide <pi@beobide.net>
+Date:   Thu Oct 13 12:30:45 2016 +0200
+
+    I18n: Update translation eu (98%).
+    
+    364 translated messages, 7 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 7001047bec72476d6184f82780ef91ba316c6358
+Author: Marcin XD <m4sk1n@o2.pl>
+Date:   Mon Oct 10 00:30:41 2016 +0200
+
+    I18n: Update translation pl (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9bdac0c3e0df3e9258fb7c46d189d350794babc6
+Author: Michael Findlay <translate@cobber-linux.org>
+Date:   Sun Oct 9 12:30:40 2016 +0200
+
+    I18n: Update translation en_AU (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 4680cc6f1061297aa0b6cb9ca36c6e801212a1b7
+Author: Påvel Nicklasson <pavelnicklasson@bahnhof.se>
+Date:   Sun Oct 2 12:30:40 2016 +0200
+
+    I18n: Update translation sv (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 72bf5aabb190929b4dcb4f2ad16631c88dcd037f
+Author: GenghisKhan <genghiskhan@gmx.ca>
+Date:   Thu Sep 29 00:30:41 2016 +0200
+
+    I18n: Update translation he (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit e9fb919e3bd663c1943621971fe0e4f33263dd34
+Author: vyper <xvirusxx@gmail.com>
+Date:   Mon Sep 26 06:30:52 2016 +0200
+
+    I18n: Update translation ro (98%).
+    
+    365 translated messages, 6 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 4530299f3e0ad36baea4ca94eda1f39d00b9a455
+Author: abuyop <abuyop@gmail.com>
+Date:   Sat Sep 24 18:31:04 2016 +0200
+
+    I18n: Update translation ms (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d456aab8f49c071df0a248de0d41e6d38257f48d
+Author: André Miranda <andre42m@gmail.com>
+Date:   Fri Sep 23 06:30:41 2016 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f7b089931e50c82d856c1af0360368b4d475e115
+Author: GenghisKhan <genghiskhan@gmx.ca>
+Date:   Thu Sep 22 12:30:41 2016 +0200
+
+    I18n: Update translation he (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f45569e5bf768684659ac4fcf18daed5ac26f3fc
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Tue Sep 20 12:30:47 2016 +0200
+
+    I18n: Update translation zh_CN (98%).
+    
+    367 translated messages, 4 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 91ffaef1b9e55ea24e67817739d3dc659914ed6d
+Author: Manolo Díaz <diaz.manolo@gmail.com>
+Date:   Tue Sep 20 12:30:47 2016 +0200
+
+    I18n: Update translation es (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 59ff2043b3f138b4f356ea16083030a1a837cf24
+Author: Seong-ho Cho <darkcircle.0426@gmail.com>
+Date:   Tue Sep 20 00:30:41 2016 +0200
+
+    I18n: Update translation ko (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit e4696dde555cfa68602f5a5b9b7576f164833342
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Mon Sep 19 18:30:42 2016 +0200
+
+    I18n: Update translation he (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 5d4797e8452c7dd88b277898ff0e36f886c75ab3
+Author: dsafsadf <heneral@gmail.com>
+Date:   Sun Sep 18 00:30:50 2016 +0200
+
+    I18n: Update translation uk (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9be880ba66f5115eef092144890b564ece791c0c
+Author: Igor <f2404@yandex.ru>
+Date:   Sat Sep 17 18:30:41 2016 +0200
+
+    I18n: Update translation ru (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit fce4dbf28b9d53642c5584489ffd09720addca91
+Author: Lovro Kudelić <lovro.kudelic@outlook.com>
+Date:   Sat Sep 17 18:30:41 2016 +0200
+
+    I18n: Update translation hr (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d66ce66b20d6631f9342efda398251d179057af9
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Sat Sep 17 12:30:40 2016 +0200
+
+    I18n: Update translation fr (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ae208f12e95de03f40f5703fa6930a865f360ed4
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Sat Sep 17 00:30:53 2016 +0200
+
+    I18n: Update translation sk (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 3f045f3c487073a344810d9feee5a5a9fc047e3b
+Author: Kiril Kirilov <cybercop_montana@abv.bg>
+Date:   Sat Sep 17 00:30:53 2016 +0200
+
+    I18n: Update translation bg (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 8b82d0aee2ff7e9788d5cb72882e62161b9dff97
+Author: Jeff Huang <s8321414@gmail.com>
+Date:   Fri Sep 16 18:30:50 2016 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 45b1767afd6dfe74b0e2659150918a3c5f983cbb
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Sep 16 18:30:50 2016 +0200
+
+    I18n: Update translation lt (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit fbc4d5088627361ea9c6c766d333425cb5e9d175
+Author: Charles Monzat <superboa@hotmail.fr>
+Date:   Fri Sep 16 18:30:50 2016 +0200
+
+    I18n: Update translation fr (98%).
+    
+    364 translated messages, 7 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d96372f5be1b86bb1958ae71ca598b8f7f427582
+Author: Tobias Bannert <tobannert@gmail.com>
+Date:   Fri Sep 16 18:30:50 2016 +0200
+
+    I18n: Update translation de (100%).
+    
+    371 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 838aa6f1c5344d45dde51acb31f165ccd26f666d
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Thu Sep 15 18:35:35 2016 -0400
+
+    Merge in GTK3 port. Special thanks to Simon for appearance fixes, widget cleanup, and suggestion of the WindowScalingFactor setting. Summary of changes:
+    - All components and glade files have been ported to GTK 3.20, all deprecated widgets and functions replaced
+    - Build requirements have been bumped to gtk+-3.0 3.20, glib-2.0 2.45, gio-2.0 2.45, gio-unix-2.0 2.45, exo-2 0.11.0, libxfce4ui-2 4.13.0, libxfce4kbd-private-3 4.12.0
+    - Added support for /Gdk/WindowScalingFactor
+    
+    Squashed commit of the following:
+    
+    commit 9d52b25530c7f88d86573c7e6cf0c8e938702107
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 22:34:10 2016 -0400
+    
+        Upgrade all glade files to gtk 3.20, replace deprecated widgets
+    
+    commit 9ccbace18fc19f03c9cfd5959f8f48d6cb865ad0
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 20:46:27 2016 -0400
+    
+        Bump required versions to support GTK 3.20 and Xfce 4.13+
+    
+    commit ca182a87113bf0e2720420ce99fc58cfe2dbe223
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 20:18:11 2016 -0400
+    
+        Fix drawing issues (again)
+    
+    commit eb5b63cb505b5fd311a075410607c13a2b72645c
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 18:11:25 2016 -0400
+    
+        Current progress, runs, no display
+    
+    commit 3d76c9fe59e70a207bf9ee76a35e9d48276494d6
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Wed Sep 14 23:31:35 2016 +0200
+    
+        Drop unused vars
+    
+    commit fdf7cc3da5d889e590f76b6e3cb9b31f49e29056
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 06:27:11 2016 -0400
+    
+        Fix deprecations
+    
+    commit 59b3ea798178240f13168cf4e10d56ff894a965b
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 06:11:53 2016 -0400
+    
+        Fix paint callback
+    
+    commit 07753d65d89193149a0bf609ef50c0b6e405fca4
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 06:02:41 2016 -0400
+    
+        Replace expose event with draw
+    
+    commit 559abb683b2dd6ad5df7b6bc398941aba12f7dd2
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Wed Sep 14 05:56:00 2016 -0400
+    
+        Discard IFDEFs
+    
+    commit 8d1d5af66c9df099c952015fa050f90c8488b169
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Wed Sep 14 11:20:27 2016 +0200
+    
+        Fix background color of scrollarea
+    
+    commit c1048c7a0eea7d58b511d3ca4ad37970fd04a416
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Tue Sep 13 22:52:21 2016 -0400
+    
+        Replace string
+    
+    commit 6fd34046d40315839b65bbb82e6a79b90cb49630
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Tue Sep 13 22:48:17 2016 -0400
+    
+        Support Gdk WindowScalingFactor
+    
+    commit 9df1063fee837128fe78070900d19544a20b6f17
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Tue Sep 13 22:03:10 2016 -0400
+    
+        Import latest foo-marshall and scrollarea from mate, builds with --disable-debug
+    
+    commit 2bb20c12fcd36e3e567a28f338423556f730316a
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sat Sep 3 06:13:55 2016 -0400
+    
+        Drop definition of xfce_widget_reparent, bump required libxfce4ui version to 4.13.0 which now provides it
+    
+    commit 03b2bf87e7702f9c89760417d27c8c86a199b1c7
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sun Aug 21 21:35:14 2016 -0400
+    
+        Partially port display settings
+    
+    commit 1316fb377b3fa2c5b42060981385c1909c634a16
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Mon Aug 8 00:22:33 2016 +0200
+    
+        Drop all deprecated widgets from the a11y settings dialog
+    
+    commit 8b36f4ce5c834eed09b7e18ed7235e58e4311e64
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Mon Aug 8 00:02:22 2016 +0200
+    
+        Drop all deprecated widgets from the mouse settings dialog
+    
+    commit c5d40bf125b0a05ec4c2fad2c03bfdbf78ac3443
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Sun Aug 7 23:48:27 2016 +0200
+    
+        Drop all deprecated widgets from the keyboard settings dialog
+    
+    commit f017811a1e25722e8e7233a2f323c0e342973710
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Sun Aug 7 23:40:50 2016 +0200
+    
+        Drop all deprecated widgets from the appearance settings dialog
+    
+    commit a90e9c10848dc81da234b424b121b6b4af30ef8d
+    Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+    Date:   Sun Aug 7 23:15:09 2016 +0200
+    
+        Fix background styles of header and viewport in manager
+    
+    commit 02097c9c1052f4639e79488113b73eeb496bd7c7
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sat Jun 18 14:17:29 2016 -0400
+    
+        Use text renderer to fix display issue
+    
+    commit 9fff5000548ed99a4bf65f9862e50bd201552c0f
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sat Jun 18 12:54:36 2016 -0400
+    
+        Initial broken port of the settings manager
+    
+    commit 7f98f7d11624dac51dcc2e67e2d744ba36b40b3f
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sun Jun 5 18:42:10 2016 -0400
+    
+        Mostly fix colors, selected color is still broken for some themes
+    
+    commit 298974550d7ee2164fe0d1b5db3fec8b4b05de5b
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sun Jun 5 14:01:42 2016 -0400
+    
+        Port appearance settings. FIXME: showcase colors are always black
+    
+    commit 3487e364d7a2340924ffe25dcda212cdcf0ae1e5
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sun Jun 5 08:25:35 2016 -0400
+    
+        Port xfce4-settings-editor
+    
+    commit 95f86ffe126b8110d0fcf6c4a349a3b6e4bd2d61
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Tue May 31 21:50:47 2016 -0400
+    
+        Port xfsettingsd to gtk3
+    
+    commit 8beea08b96fbfad32c9e6aa8fbc0068e656c6164
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Tue May 31 21:09:39 2016 -0400
+    
+        Port xfce4-mouse-settings to gtk3
+    
+    commit c2db3c3a1c448339424077ab1a2168643c77c385
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Tue May 31 20:48:38 2016 -0400
+    
+        Port xfce4-keyboard-settings to gtk3
+    
+    commit 3648eece22e403daf4710f24f4b3f00437a4adc9
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sat May 21 09:44:56 2016 -0400
+    
+        Drop unused libxfce4util references in the keyboard settings
+    
+    commit 11d60fde191cfd0b8704dd7baa181b8ea8273747
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sat May 21 09:18:26 2016 -0400
+    
+        Port xfce4-accessibility-settings (plug functionality untested)
+    
+    commit 4e9fac5214f30584e770e02b04fa22c5f59bbc3a
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Sat May 21 08:17:13 2016 -0400
+    
+        Complete port of xfce4-mime-settings
+    
+    commit 859d8a62fa330bc9f3c95c2d0964352bfa346541
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Thu May 19 22:19:50 2016 -0400
+    
+        Partially ported xfce4-mime-settings, does not build
+    
+    commit 4ac0151520eed29b2d3bf5f8bffe4602b1bc0d66
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Thu May 19 21:18:39 2016 -0400
+    
+        Further seal and replace deprecations, should now be ready to port
+    
+    commit ba64a334c90a1caf5562233d22df67bdc1bfca24
+    Author: Sean Davis <smd.seandavis@gmail.com>
+    Date:   Thu May 19 20:39:13 2016 -0400
+    
+        Build with GTK_DISABLE_SINGLE_INCLUDES, GDK_DISABLE_DEPRECATED, GTK_DISABLE_DEPRECATED, GSEAL_ENABLE where possible
+
+commit bbeb457e07dc3fb74c85f602002c330ca9e3c85a
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Thu Sep 15 07:15:47 2016 -0400
+
+    Post release tag bump
+
+commit a640c11daa5f7bfcfa52cd8149aa237560529e9c
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Thu Sep 15 07:11:29 2016 -0400
+
+    Updates for release
+
 commit f010198fb6e52c66bd1b4a9119ad65c5d1467b3e
 Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
 Date:   Mon Aug 22 18:30:50 2016 +0200
