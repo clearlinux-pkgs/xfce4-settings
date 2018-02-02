@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.13.0
-Release  : 21
+Release  : 22
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.13/xfce4-settings-4.13.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.13/xfce4-settings-4.13.0.tar.bz2
 Summary  : No detailed summary available
