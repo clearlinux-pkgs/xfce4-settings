@@ -1,0 +1,3 @@
+Configure miss: main in -lX11
+Configure miss: optional package upower-glib >= 0.9.8
+Configure miss: optional package xorg-libinput >= 0.6.0

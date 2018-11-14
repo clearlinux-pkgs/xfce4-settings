@@ -1,3 +1,99 @@
+4.13.5
+======
+- New: Add display profiles feature
+  - Allows for saving/restoring display configurations
+  - Profiles can be auto-applied when new displays are connected
+- Drop the Gtk Theme previews
+- Various UI improvements to the settings dialogs
+- New icons for the minimal display dialog
+- Fix: Fix broken hover effect in the settings manager (Bug #14539)
+- Fix: Add default mnemonics back to dialog buttons
+- Fix: Add DBUS_GLIB_CFLAGS for Settings Editor (Bug #14385)
+- Fix: Force using a period as a decimal separator in xfsettingsd (Bug #11906)
+- Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali,
+  Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan),
+  Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (Great
+  Britain), Finnish, French, Galician, German, Greek, Hebrew, Hungarian,
+  Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian,
+  Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese,
+  Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian,
+  Spanish, Swedish, Thai, Turkish, Ukrainian, Uyghur
+
+4.13.4
+======
+- Fix: Redefinition of DISTCLEANFILES
+- Fix: Typo, "PRECISON" to "PRECISION"
+- Replaced "AC_CONFIG_MACRO_DIR" usage with "AC_CONFIG_MACRO_DIRS"
+- Translation updates: Russian
+
+4.13.3
+======
+- Fix: Uninitialized scalar variables (CID #292062, #292063)
+- Fix: -Wcast-function-type (GCC 8)
+- Ported from dbus-glib to gdbus (Xfce #14426)
+- Added support for xrandr display scaling (via Xfconf)
+- Improved display manufucturer name recognition:
+  - Refreshed PNP IDs from hwdata
+  - Added support for VBX (VirtualBox)
+  - Standardized and shortened manufacturer names
+  - Updated laptop detection to include eDP in XfceRandr
+- Updated --help copyright information to 2018
+- Translation updates: Belarusian, Catalan, English (Australia), Galician,
+  Greek, Hebrew, Hungarian, Japanese, Kazakh, Portuguese, Portuguese (Brazil),
+  Spanish, Swedish, Ukrainian
+
+4.13.2
+======
+- New: Show location of the mouse pointer on keypress
+- Fix: syncdaemon not starting with certain locales
+- Fix: division by 0 crash from gdk_screen_height_mm()
+- Fix: Remove existing socket from socket viewport (Xfce #13847)
+- Fix: Use transient notifications for improved logging
+- Fix: Do not expand event sounds section so font scaling is correctly
+  positioned
+- Improvements for multimonitor support:
+  - Visualize all three display configuration states
+  - Visually note if two displays overlap (mirrored) but are not cloned
+  - Always draw active display last so it's on top
+  - Fix: Correctly position monitors in extended mode
+  - Fix: Race condition with monitor connect and disconnect
+  - Fix: Segfault on monitor reconnect
+  - Fix: Leave monitors where they were if possible (Xfce #14096)
+- Deprecations:
+  - Resolved GTK+ 3.22 deprecations (Xfce #14273)
+- Translation updates: Amharic, Arabic, Asturian, Basque, Belarusian,
+  Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong),
+  Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia),
+  English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew,
+  Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean,
+  Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan (post 1500),
+  Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak,
+  Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian
+
+4.13.1
+======
+- This release now requires xfconf 4.13+
+- New: Default monospace font option in the Appearance dialog
+- New: Improved support for embedded DisplayPort connectors
+- Fix: Display dialog drawing of displays
+- Fix: Display dialog DND usability issue introduced in 4.13.0
+- Fix: Make minimal dialog single instance (Xfce #11169)
+- Fix: Linking to dbus-glib with xfconf 4.13+ (Xfce #13633)
+- Deprecations:
+  - Resolved gtk_menu_popup deprecation
+  - Resolved gdk_error_trap_pop deprecation
+  - Ignoring GdkScreen and GdkCairo deprecations in the display settings
+    until GNOME or others find a resolution in their display management
+- Code Quality:
+  - Several indentation fixes
+  - Drop duplicate drawing code
+- Translation updates: Arabic, Bulgarian, Catalan, Chinese (China),
+  Chinese (Taiwan), Croatian, Danish, Dutch, Finnish, French, Galician,
+  German, Greek, Hebrew, Indonesian, Italian, Japanese, Kazakh, Korean,
+  Lithuanian, Malay, Norwegian Bokmal, Norwegian Nynorsk, Occitan,
+  Portuguese, Portuguese (Brazil), Russian, Serbian, Slovak, Spanish,
+  Swedish, Thai, Ukrainian
+
 4.13.0
 ======
 - Initial port to GTK+ 3
@@ -12,6 +108,51 @@
   Hebrew, Japanese, Korean, Lithuanian, Malay, Occitan (post 1500),
   Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian,
   Slovak, Spanish, Swedish, Ukrainian
+
+4.12.4
+======
+- Fix: xfsettingsd --replace does not replace old daemon (Xfce #14381)
+- Fix: Uninitialized scalar variables (CID #292062, #292063)
+- Fix: -Wcast-function-type (GCC 8)
+- Fix: Redefinition of DISTCLEANFILES
+- Improved display manufucturer name recognition:
+  - Refreshed PNP IDs from hwdata
+  - Added support for VBX (VirtualBox)
+  - Standardized and shortened manufacturer names
+  - Updated laptop detection to include eDP in XfceRandr
+- Updated --help copyright information to 2018
+- Replaced "AC_CONFIG_MACRO_DIR" usage with "AC_CONFIG_MACRO_DIRS"
+- Translation updates: Belarusian, Catalan, English (Australia), Galician,
+  Hungarian, Japanese, Korean, Portuguese, Ukrainian
+
+4.12.3
+======
+- Improvements for multimonitor support:
+  - Visualize all three display configuration states
+  - Visually note if two displays overlap (mirrored) but are not cloned
+  - Always draw active display last so it's on top
+  - Fix: Correctly position monitors in extended mode
+  - Fix: Race condition with monitor connect and disconnect
+  - Fix: Segfault on monitor reconnect
+- Translation updates: Belarusian, Danish, Greek, Italian, Malay,
+  Norwegian Bokmål, Polish, Portuguese (Brazil), Serbian, Swedish, Turkish
+
+4.12.2
+======
+- Fix: Leave monitors where they were if possible (Xfce #14096)
+- Fix: syncdaemon not starting with certain locales
+- Fix: division by 0 crash from gdk_screen_height_mm()
+- New: Default monospace font option in the Appearance dialog
+- New: Improved support for embedded DisplayPort connectors
+- New: Show location of the mouse pointer on keypress
+- Translation updates: Arabic, Asturian, Basque, Bengali, Bulgarian,
+  Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian,
+  Czech, Danish, Dutch, English (Australia), English (United Kingdom),
+  Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic,
+  Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay,
+  Norwegian Bokmål, Norwegian Nynorsk, Occitan (post 1500), Polish,
+  Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak,
+  Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian
 
 4.12.1
 ======
@@ -35,8 +176,8 @@
 - Fix crashes for missing icons (bug #11568)
 - Fix warnings during configure
 - Fix primary checkbox expansion in the display settings
-- Translation updates: Asturian, Bulgarian, Chinese (China), 
-  Czech, Finnish, French, Hebrew, German, Spanish, 
+- Translation updates: Asturian, Bulgarian, Chinese (China),
+  Czech, Finnish, French, Hebrew, German, Spanish,
   Norwegian Bokmål, Portuguese, Romanian, Slovak, Turkish
 
 4.11.4
