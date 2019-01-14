@@ -1,7 +1,5 @@
 libX11.so.6
 libXcursor.so.1
-libXi.so.6
-libXrandr.so.2
 libc.so.6
 libcairo.so.2
 libexo-2.so.0

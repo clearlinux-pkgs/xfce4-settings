@@ -4,10 +4,10 @@
 #
 Name     : xfce4-settings
 Version  : 4.13.5
-Release  : 24
+Release  : 25
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.13/xfce4-settings-4.13.5.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.13/xfce4-settings-4.13.5.tar.bz2
-Summary  : No detailed summary available
+Summary  : Settings manager for xfce
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: xfce4-settings-bin = %{version}-%{release}
@@ -85,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1542221625
+export SOURCE_DATE_EPOCH=1547435181
 export CFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
 export FFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
@@ -101,7 +101,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1542221625
+export SOURCE_DATE_EPOCH=1547435181
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-settings
 cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-settings/COPYING
