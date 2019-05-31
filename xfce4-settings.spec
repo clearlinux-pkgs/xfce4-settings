@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.13.6
-Release  : 27
+Release  : 28
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.13/xfce4-settings-4.13.6.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.13/xfce4-settings-4.13.6.tar.bz2
 Summary  : Settings manager for xfce
