@@ -1,3 +1,162 @@
+commit ea6efed4de5bbd18e92409ba5d03d8d78e48d9df
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Fri Jul 26 06:30:58 2019 +0200
+
+    I18n: Update translation zh_CN (100%).
+    
+    451 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 960504d933378ad8b6f165c0063e7984a5ee0f7b
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Sat Jul 20 17:30:16 2019 +0200
+
+    display: Sync display when applying config
+    
+    Previously the display plugin would flush the display when applying the
+    configuration.
+    Use a sync instead to make sure the request is actually sent and
+    processed by the XServer.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit 4cdf8a91cb8789a5104f9eb96548497deb591cd7
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Sat Jul 20 15:29:12 2019 +0200
+
+    display: Use current display
+    
+    Instead of getting the default display again and again.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit 523abc95d66cf7aa76f76ba0a6f0363b2dd4c51c
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Fri Jul 19 14:10:08 2019 +0200
+
+    xsettings: Grab and sync XServer on startup (Bug #15725)
+    
+    Grab the XServer when declaring ourselves the xsettings manager and flush
+    it prior to ungrabbing it to make sure everything gets set for other clients.
+    
+    The goal is to avoid other X11 clients from reading xsettings until we
+    are done initializing.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit 9c4acaaf5ea233f342b20e709eed25f1be1915ac
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Fri Jul 19 14:05:00 2019 +0200
+
+    xfsettingsd: Start settings prior to complete startup (Bug #15725)
+    
+    On session startup, various gtk based applications are launched concurrently.
+    If we start the settings daemon simultaneously, those other apps fail to detect
+    the settings and ignore the various preferences set via xsettings (themes,
+    icons, etc.).
+    
+    Make sure we spawn all settings helpers  prior to declaring ourselves ready to the
+    session manager.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit 86717779a48e7fb4cd37171ca4e2766672a8d8a9
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Sat Jul 20 17:40:29 2019 +0200
+
+    Revert "xfsettingsd: Start with the highest priority (Bug #15697)"
+    
+    This reverts commit 92ddf97f8e8b976c3aa4483e2a5d1a23078ae84f.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit dc1e2ff11405d897c3060f91a825791b0487b233
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Tue Jul 23 18:31:36 2019 +0200
+
+    I18n: Update translation nb (97%).
+    
+    438 translated messages, 13 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 840fccea029bd9db5da413e2821c409acfcadc9d
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Wed Jul 17 23:34:22 2019 +0200
+
+    Update copyright years
+
+commit bdd47c5fce91c10ae41f38d53704f99299c573fe
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 12:32:06 2019 +0200
+
+    I18n: Update translation fi (100%).
+    
+    451 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 92ddf97f8e8b976c3aa4483e2a5d1a23078ae84f
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Wed Jul 10 21:16:18 2019 +0200
+
+    xfsettingsd: Start with the highest priority (Bug #15697)
+    
+    Start the settings daemon with the highest priority, so it gets started
+    first, because all other components depend on the settings applied by
+    xfsettingsd and applying those after the other components have started
+    is very expensive, clients have to reconfigure themselves, reload fonts,
+    themes, reload configuration, etc.
+    
+    If we load the settings first, the other applications do not need all
+    that reconfiguration and therefore we end up starting the whole session
+    faster.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit 5377b8c061efaef1261e869b3ccd6e0bfd666be7
+Author: Yarema aka Knedlyk <yupadmin@gmail.com>
+Date:   Wed Jul 10 00:31:25 2019 +0200
+
+    I18n: Update translation uk (85%).
+    
+    385 translated messages, 66 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 87cc09115a15a777cb4fe571f44caa340d0ee57b
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jul 3 18:30:39 2019 +0200
+
+    I18n: Update translation hy_AM (100%).
+    
+    451 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e7a30bdde79d49857e70e442abe8c99f76f2c60e
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jul 3 12:31:12 2019 +0200
+
+    I18n: Update translation hy_AM (82%).
+    
+    372 translated messages, 79 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 01b4847f80b2e98e137bc5813486c6acd4740fdd
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Sun Jun 30 17:16:54 2019 -0400
+
+    Back to development
+
+commit e74f0edc8bb53ae8150070f5623667c2a68b86e0
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Sun Jun 30 17:13:28 2019 -0400
+
+    Updates for release
+
 commit 4b3a588cfc501ed662d67a260c8953ceaeca813b
 Author: Sean Davis <smd.seandavis@gmail.com>
 Date:   Sun Jun 30 06:44:14 2019 -0400
