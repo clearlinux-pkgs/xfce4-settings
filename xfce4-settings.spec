@@ -4,7 +4,7 @@
 #
 Name     : xfce4-settings
 Version  : 4.14.2
-Release  : 33
+Release  : 34
 URL      : http://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.2.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.2.tar.bz2
 Summary  : Settings manager of the Xfce desktop
