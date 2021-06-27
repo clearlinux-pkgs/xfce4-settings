@@ -5,8 +5,8 @@
 Name     : xfce4-settings
 Version  : 4.16.0
 Release  : 35
-URL      : https://archive.xfce.org/xfce/4.16/src/xfce4-settings-4.16.0.tar.bz2
-Source0  : https://archive.xfce.org/xfce/4.16/src/xfce4-settings-4.16.0.tar.bz2
+URL      : https://archive.xfce.org/src/xfce/xfce4-settings/4.16/xfce4-settings-4.16.0.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/xfce4-settings/4.16/xfce4-settings-4.16.0.tar.bz2
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
