@@ -1,8 +1,8 @@
-From c6f37e778953f8e83276541091074bde038a043c Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Ikey Doherty <michael.i.doherty@intel.com>
 Date: Mon, 7 Mar 2016 07:45:44 +0000
-Subject: [PATCH 2/2] xfsettingds: Use the correct (stateless) desktop file
- with SmClient
+Subject: [PATCH] xfsettingds: Use the correct (stateless) desktop file with
+ SmClient
 
 Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
 ---
@@ -10,7 +10,7 @@ Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/xfsettingsd/main.c b/xfsettingsd/main.c
-index a3a14fe..af8bad9 100644
+index f211400..e2e1ffe 100644
 --- a/xfsettingsd/main.c
 +++ b/xfsettingsd/main.c
 @@ -67,7 +67,7 @@
@@ -22,6 +22,3 @@ index a3a14fe..af8bad9 100644
  
  #define UNREF_GOBJECT(obj) \
      if (obj) \
--- 
-2.19.1
-
